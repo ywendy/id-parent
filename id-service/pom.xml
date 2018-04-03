@@ -12,6 +12,8 @@
     <artifactId>id-service</artifactId>
 
 
+
+
     <dependencies>
         <dependency>
             <groupId>com.yooeee.id.gen</groupId>

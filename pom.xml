@@ -12,6 +12,8 @@
         <module>id-service</module>
         <module>id-api</module>
         <module>id-common</module>
+        <module>id-server</module>
+        <module>id-client</module>
     </modules>
 
 

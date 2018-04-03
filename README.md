@@ -14,3 +14,15 @@
 mvn clean assembly:assembly 把三个模块打成一个包
 ### 发布到私服
 mvn deploy:deploy-file -DgroupId=com.yooeee.id.gen -DartifactId=id-generator -Dversion=1.0 -Dpackaging=jar -Dfile=target/id-generator-1.0.jar -Durl=http://192.168.0.215:8081/nexus/content/repositories/releases -DrepositoryId=releases
+
+
+
+## 传输协议
+  1        2          3       4
+ len + header len + header + body
+ 
+ 1:总长度
+ 2:header 长度
+ 3: header body
+ 4: body
+ 
