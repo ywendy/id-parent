@@ -1,0 +1,27 @@
+<assembly>
+    <id>1.0.1</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>true</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>id-api/target/classes/</directory>
+            <outputDirectory>target/</outputDirectory>
+            <fileMode>0644</fileMode>
+        </fileSet>
+
+        <fileSet>
+            <directory>id-common/target/classes/</directory>
+            <outputDirectory>target/</outputDirectory>
+            <fileMode>0644</fileMode>
+        </fileSet>
+
+        <fileSet>
+            <directory>id-service/target/classes/</directory>
+            <outputDirectory>target/</outputDirectory>
+            <fileMode>0644</fileMode>
+        </fileSet>
+    </fileSets>
+
+</assembly>
